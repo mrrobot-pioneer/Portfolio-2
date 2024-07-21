@@ -1,0 +1,67 @@
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: clamp(2rem, 2.5vw, 4rem);
+}
+
+.blog-grid .item {
+  width: 100%;
+  height: fit-content;
+  border-radius: 2rem;
+  position: relative;
+  cursor: pointer;
+  background-color: var(--bg-3);
+  padding: 1rem;
+}
+
+.blog-grid .item .thumbnail {
+  width: 100%;
+  aspect-ratio: 1/0.7;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.blog-grid .item .thumbnail img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.blog-grid .item img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.blog-grid .item .details {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  opacity: 0.6;
+}
+
+.blog-grid .item h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.blog-grid .item a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: var(--main);
+  color: var(--bg-1);
+  padding: 0.7rem 1rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  border-radius: 2rem;
+  transition: all 0.3s;
+}
+
+.blog-grid .item a:hover {
+  letter-spacing: 2px;
+}

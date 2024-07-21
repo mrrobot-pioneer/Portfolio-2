@@ -1,0 +1,158 @@
+.sidebar {
+  background-color: var(--bg-2);
+  border-radius: 2rem;
+  position: sticky;
+  width: 100%;
+  height: fit-content;
+  top: 4rem;
+  padding: clamp(1rem, 2vw, 3rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  border: 1px solid var(--bg-3);
+}
+.sidebar .details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sidebar .profile {
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg-3);
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.sidebar .profile img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.sidebar .name {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.sidebar .role {
+  font-size: 1.6rem;
+  background-color: var(--bg-3);
+  padding: 0.8rem 1rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.sidebar .more-details {
+  border-top: 1px solid var(--bg-3);
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.sidebar .more-details .item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  gap: 1rem;
+}
+
+.sidebar .more-details .item .icon {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-3);
+  border-radius: 2rem;
+}
+
+.sidebar .more-details .item .icon i {
+  font-size: 2rem;
+  color: var(--main);
+}
+
+.sidebar .more-details .item .text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.sidebar .more-details .item .text h2 {
+  opacity: 0.6;
+}
+
+.sidebar .more-details .item .text p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  overflow: hidden;
+}
+
+.sidebar .show-contacts {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .sidebar .details {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .sidebar .profile {
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .sidebar .details .name {
+    text-align: left;
+  }
+
+  .sidebar .more-details {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    padding: 0;
+    transition: all 0.3s;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .sidebar .more-details.active {
+    opacity: 1;
+    visibility: visible;
+    height: 30rem;
+    padding: 2rem 0;
+  }
+
+  .sidebar .more-details .item {
+    grid-template-columns: 7rem 1fr;
+  }
+
+  .sidebar .show-contacts {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.5rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    background-color: var(--bg-3);
+    padding: 1rem;
+    color: var(--main);
+    display: flex;
+    align-items: center;
+  }
+
+  .sidebar .show-contacts i {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,165 @@
+/* education */
+
+.education {
+  margin-top: 5rem;
+}
+
+.education-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  gap: 1.5rem;
+}
+
+.education-title i {
+  font-size: 2rem;
+  padding: 1rem;
+  background: var(--bg-3);
+  border-radius: 2rem;
+  color: var(--main);
+}
+
+.education-title h2 {
+  font-size: 2rem;
+}
+
+.education .content {
+  margin-top: 2.5rem;
+  padding-left: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-left: 2px solid var(--main);
+}
+
+.education .content .item .item-title {
+  position: relative;
+  font-size: 1.5rem;
+}
+
+.education .content .item .item-title::before {
+  content: "";
+  position: absolute;
+  left: -5.5rem;
+  top: 0.3rem;
+  height: 1rem;
+  width: 3rem;
+  background-color: var(--main);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.education .content .item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.education .content .item .item-date {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--main);
+}
+
+/* education */
+
+.experience {
+  margin-top: 5rem;
+}
+
+.experience-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  gap: 1.5rem;
+}
+
+.experience-title i {
+  font-size: 2rem;
+  padding: 1rem;
+  background: var(--bg-3);
+  border-radius: 2rem;
+  color: var(--main);
+}
+
+.experience-title h2 {
+  font-size: 2rem;
+}
+
+.experience .content {
+  margin-top: 2.5rem;
+  padding-left: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-left: 2px solid var(--main);
+}
+
+.experience .content .item .item-title {
+  position: relative;
+  font-size: 1.5rem;
+}
+
+.experience .content .item .item-title::before {
+  content: "";
+  position: absolute;
+  left: -5.5rem;
+  top: 0.3rem;
+  height: 1rem;
+  width: 3rem;
+  background-color: var(--main);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.experience .content .item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.experience .content .item .item-date {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--main);
+}
+
+/* skills */
+.skills {
+  margin-top: 5rem;
+}
+
+.skills .skills-title {
+  font-size: 2rem;
+}
+
+.skills .skills-wrapper {
+  margin-top: 2rem;
+  width: 100%;
+  background: var(--bg-3);
+  border-radius: 2rem;
+  padding: 3rem;
+}
+.skills .skills-wrapper p {
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+progress {
+  width: 100%;
+  margin-top: 0.6rem;
+  height: 1.2rem;
+  background-color: var(--bg-3);
+}
+
+progress::-webkit-progress-bar {
+  background-color: var(--bg-2);
+  border-radius: 1.5rem;
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--main);
+  border-radius: 1.5rem;
+}

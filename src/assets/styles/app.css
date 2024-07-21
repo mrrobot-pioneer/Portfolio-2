@@ -1,0 +1,13 @@
+.portfolio {
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  max-width: 1500px;
+  margin: auto;
+  gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .portfolio {
+    grid-template-columns: 1fr;
+  }
+}

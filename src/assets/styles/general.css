@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --bg-1: #121212;
+  --bg-2: #222;
+  --bg-3: #333;
+  --text: #fff;
+  --main: #ffdb70;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--bg-1);
+  color: var(--text);
+  padding: clamp(2rem, 3vw, 4rem);
+  min-height: 100vh;
+}
+
+section {
+  padding-top: 3rem;
+}
+
+section .title {
+  font-size: 4rem;
+  position: relative;
+  margin-bottom: 3rem;
+}
+section .title:before {
+  font-size: 3rem;
+  color: var(--main);
+  position: absolute;
+  content: "";
+  bottom: -1rem;
+  background-color: var(--main);
+  left: 0;
+  height: 0.7rem;
+  width: 5rem;
+  border-radius: 0.5rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  font-weight: 300;
+}
+
+/* styling the scroll buttons */
+::-webkit-scrollbar {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  margin: 0.4rem 0;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--main);
+  border-radius: 0.5rem;
+  border-right: 2px solid var(--bg-1);
+  border-left: 2px solid var(--bg-1);
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+}
