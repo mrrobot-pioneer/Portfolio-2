@@ -5,7 +5,7 @@ export default function Testimonials() {
       <div className="testimonials-grid">
         <div className="testimonial">
           <div className="icon">
-            <img src="p1.png" alt="" />
+            <img src="p1.png" alt="" loading="lazy" />
           </div>
           <div className="text">
             <h2 className="name">John Doe</h2>
@@ -17,7 +17,7 @@ export default function Testimonials() {
         </div>
         <div className="testimonial">
           <div className="icon">
-            <img src="p2.png" alt="" />
+            <img src="p2.png" alt="" loading="lazy" />
           </div>
           <div className="text">
             <h2 className="name">John Doe</h2>
@@ -29,7 +29,7 @@ export default function Testimonials() {
         </div>
         <div className="testimonial">
           <div className="icon">
-            <img src="p1.png" alt="" />
+            <img src="p1.png" alt="" loading="lazy" />
           </div>
           <div className="text">
             <h2 className="name">John Doe</h2>
@@ -41,7 +41,7 @@ export default function Testimonials() {
         </div>
         <div className="testimonial">
           <div className="icon">
-            <img src="p2.png" alt="" />
+            <img src="p2.png" alt="" loading="lazy" />
           </div>
           <div className="text">
             <h2 className="name">John Doe</h2>

@@ -8,7 +8,7 @@ export default function Portfolio() {
         {/* you can break each item into an individual component */}
         <div className="item">
           <div className="thumbnail">
-            <img src="robotics.jpg" alt="" />
+            <img src="robotics.jpg" alt="" loading="lazy" />
             <i className="bx bx-show"></i>
           </div>
           <h2>Finance</h2>
@@ -16,7 +16,7 @@ export default function Portfolio() {
         </div>
         <div className="item">
           <div className="thumbnail">
-            <img src="graphics-design.jpg" alt="" />
+            <img src="graphics-design.jpg" alt="" loading="lazy" />
             <i className="bx bx-show"></i>
           </div>
           <h2>Finance</h2>
@@ -24,7 +24,7 @@ export default function Portfolio() {
         </div>
         <div className="item">
           <div className="thumbnail">
-            <img src="web-design.jpg" alt="" />
+            <img src="web-design.jpg" alt="" loading="lazy" />
             <i className="bx bx-show"></i>
           </div>
           <h2>Finance</h2>
@@ -32,7 +32,7 @@ export default function Portfolio() {
         </div>
         <div className="item">
           <div className="thumbnail">
-            <img src="seo.jpg" alt="" />
+            <img src="seo.jpg" alt="" loading="lazy" />
             <i className="bx bx-show"></i>
           </div>
           <h2>Finance</h2>
@@ -40,7 +40,7 @@ export default function Portfolio() {
         </div>
         <div className="item">
           <div className="thumbnail">
-            <img src="robotics.jpg" alt="" />
+            <img src="robotics.jpg" alt="" loading="lazy" />
             <i className="bx bx-show"></i>
           </div>
           <h2>Finance</h2>
@@ -48,7 +48,7 @@ export default function Portfolio() {
         </div>
         <div className="item">
           <div className="thumbnail">
-            <img src="graphics-design.jpg" alt="" />
+            <img src="graphics-design.jpg" alt="" loading="lazy" />
             <i className="bx bx-show"></i>
           </div>
           <h2>Finance</h2>
