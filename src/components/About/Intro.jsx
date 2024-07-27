@@ -1,6 +1,8 @@
+import "../../assets/styles/about.css";
+
 export default function Intro() {
   return (
-    <div>
+    <div className="about-message">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi amet
         ipsa quae magnam ullam doloribus, dolorum iusto corporis, voluptas et

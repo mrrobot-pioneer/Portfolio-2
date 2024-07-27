@@ -11,7 +11,7 @@
 .services .services-grid {
   margin-top: 2.5rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
   gap: 2rem;
 }
 
@@ -52,7 +52,7 @@
 .testimonials .testimonials-grid {
   margin-top: 2.5rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
   gap: 2rem;
 }
 
@@ -91,9 +91,8 @@
 
 .clients-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
   gap: 2rem;
-  max-width: 500px;
   margin-top: 2.5rem;
 }
 

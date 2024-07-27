@@ -45,8 +45,8 @@
   .nav {
     position: fixed;
     bottom: 0;
-    left: 0;
-    width: 100%;
+    left: 2vw;
+    width: calc(100% - 4vw);
     top: 90%;
     border-radius: 0;
     border-top-right-radius: 2rem;
@@ -56,6 +56,11 @@
     justify-content: center;
     border-top: 1px solid var(--main);
     z-index: 1000;
+  }
+
+  .nav ul {
+    gap: 1rem;
+    font-size: 1.6rem;
   }
   body {
     padding-bottom: 15rem;

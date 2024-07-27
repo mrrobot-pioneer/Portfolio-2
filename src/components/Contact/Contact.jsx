@@ -3,8 +3,8 @@ import "../../assets/styles/contact.css";
 export default function Contact() {
   return (
     <section>
-      <h1 className="title">Contact</h1>
-      <form action="" className="contact-form">
+      <h1 className="title">Contact Us</h1>
+      <form action="#" className="contact-form">
         <h2 className="form-title">Contact Form</h2>
         <input type="text" placeholder="Full Name" />
         <input type="email" placeholder="Email Address" />
